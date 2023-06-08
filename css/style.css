@@ -1,0 +1,99 @@
+body {
+    color: #333;
+}
+
+.wrapper {
+    width: 80%;
+    background: #ffb3c6;
+    margin: 0 auto;
+    border: 7px solid skyblue;
+    border-radius: 7px;
+    background-image: url('https://plus.unsplash.com/premium_photo-1680507425822-f9066024f13b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80');
+}
+  
+.wrapper header {
+    width: 90%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(168, 219, 219);
+}
+
+img {
+    width: 95%;
+    padding: 20px;
+    float: left;
+    border: black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* adding filter */
+img:hover {
+    filter: drop-shadow(16px 16px 20px black) saturate(30%);
+}
+
+/*grouping selector*/
+h1, h2 {
+text-align: center;
+font-size: 30px;
+padding: 25px;
+/* background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+}
+
+h2{
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* class selector */
+.box {
+    border: 2px black solid;
+    width: 14%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    margin: 8px;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.responsive {
+    max-inline-size: 100%;
+    height: auto;
+}
+
+/* id selector */
+#para {
+    padding: 25px;
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+/* child selector */
+div>p {
+    color: rgb(57, 57, 54);
+}
+
+h3 {
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+li {
+    text-align: left;
+    margin: 30px;
+    font-size: 25px;
+    text-align: center;
+    list-style-type: disc;
+}
+footer {
+    color: black;
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
